@@ -2,6 +2,8 @@ package com.cberthelot.openclasstutorial;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.AndroidCharacter;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -13,6 +15,8 @@ import com.cberthelot.openclasstutorial.mainactivity.listeners.RazListener;
 import com.cberthelot.openclasstutorial.mainactivity.views.Views;
 
 public class MainActivity extends Activity {
+
+    private final static String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +39,9 @@ public class MainActivity extends Activity {
         //On accroche les listeners
         Views.imcButton.setOnClickListener(imcListener);
         Views.razButton.setOnClickListener(razListener);
+
+        String presentation = getResources().getString(R.string.presentation, "Clément", 34);
+        Log.d(TAG, presentation);
     }
 
     //Création des listeners

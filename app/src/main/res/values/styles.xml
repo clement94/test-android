@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="texte_cyan">
+        <item name="android:textColor">#00FFFF</item>
+    </style>
+    <style name="texte_cyan_grand" parent="texte_cyan">
+        <!-- On récupère la couleur du texte définie par le parent -->
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="texte_rouge_grand" parent="texte_cyan_grand">
+        <!-- On écrase la couleur du texte définie par le parent, mais on garde la taille -->
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
 </resources>

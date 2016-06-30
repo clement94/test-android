@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenClassTutorial</string>
+    <string name="poids">Weigth :</string>
+    <string name="presentation">Hello, I am \"%1$s\" and I am %2$d years old</string>
+    <string name="taille">Size :</string>
+    <string name="valid">Submit</string>
+</resources>

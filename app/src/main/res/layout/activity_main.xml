@@ -25,6 +25,7 @@ Relative layout permet de placer les éléments les uns par rapports aux autres.
             android:inputType="number"
             android:layout_span="2"
             android:hint="Poids"/>
+
     </TableRow>
 
 
@@ -101,6 +102,7 @@ Relative layout permet de placer les éléments les uns par rapports aux autres.
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/texte_cyan"
         android:text="Vous devez cliquer sur le bouton « Calculer l'IMC » pour obtenir un résultat."
         android:id="@+id/resultText" />
 
