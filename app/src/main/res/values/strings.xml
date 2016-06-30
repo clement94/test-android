@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OpenClassTutorial</string>
+    <string name="presentation">Bonjour, je m\'appelle Clément</string>
+    <string name="valid">Valider</string>
+    <string name="poids">Poids :</string>
+    <string name="taille">Taille :</string>
+</resources>
