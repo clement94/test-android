@@ -18,14 +18,14 @@ public class DynActivity extends FragmentActivity {
 
 
     // We instantiate just one time fragments during the life of the activity.
-    private final DynFragment1 mDynamic1Fragment = new DynFragment1();
+    private final DynFragment1 mDynamic1Fragment = DynFragment1.newInstance(1);
+    private final DynFragment1 mDynamic15Fragment = DynFragment1.newInstance(5);
     private final DynFragment2 mDynamic2Fragment = new DynFragment2();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dyn_activity);
-
             showFragment(mDynamic1Fragment);
     }
 
