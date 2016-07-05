@@ -18,4 +18,13 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
+    <string name="title_category_1">Catégorie 1</string>
+    <string name="summary_pref_checkbox">Le résumé de la première checkbox</string>
+    <string name="title_pref_checkbox">Case à cocher</string>
+    <string name="summary_pref_simple">résumé pref simple</string>
+    <string name="title_pref_simple">titre pref simple</string>
+    <string name="summary_pref_switch">le résumé du switch</string>
+    <string name="switch_off_switch">arret</string>
+    <string name="switch_on_switch">marche</string>
+    <string name="title_pref_switch">le titre du switch</string>
 </resources>

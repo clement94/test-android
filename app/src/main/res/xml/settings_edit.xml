@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_category_1"
+        android:title="@string/title_category_1" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_key_pref_1"
+            android:summary="@string/summary_pref_checkbox"
+            android:title="@string/title_pref_checkbox" />
+
+        <Preference
+            android:dependency="pref_key_pref_1"
+            android:key="pref_key_pref_2"
+            android:summary="@string/summary_pref_simple"
+            android:title="@string/title_pref_simple" />
+
+        <SwitchPreference
+            android:key="pref_key_pref_3"
+            android:summary="@string/summary_pref_switch"
+            android:switchTextOff="@string/switch_off_switch"
+            android:switchTextOn="@string/switch_on_switch"
+            android:title="@string/title_pref_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_key_category_2"
+        android:title="seconde" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_2"
+            android:summary="@string/summary_pref_checkbox"
+            android:title="@string/title_pref_checkbox" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -10,6 +10,7 @@
         android:theme="@style/AppTheme">
         <!--<activity android:name=".fragment.FragmentListActivity">-->
         <activity android:name=".fragcommunication.CountriesActivity">
+        <!--<activity android:name=".fragment.SettingsWithHeaderActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,6 +21,8 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".fragment.SettingsWithHeaderActivity"></activity>
     </application>
 
 </manifest>

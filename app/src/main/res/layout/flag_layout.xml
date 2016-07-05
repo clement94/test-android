@@ -3,8 +3,16 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:text="Prefs"
+        android:onClick="openPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/flagImageView" />
+        android:id="@+id/flagImageView"
+        android:layout_weight="1"/>
 </LinearLayout>
